@@ -1,6 +1,7 @@
+import java.util.Scanner;
 /**
- *
- * @author 
+ * Find the pecentage after entering a letter
+ * @David
  */
 public class Main {
 
@@ -9,7 +10,13 @@ public class Main {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
-    // TODO code application logic here
+    // create a scanner for user inout
+    Scanner input = new Scanner(System.in);
+
+    Switch(choice){
+      case:1
+      System.out.println("if pick A your pecentage 80-100");
+    }
     
   }
 }
